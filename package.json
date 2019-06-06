@@ -1,0 +1,22 @@
+{
+  "name": "v2m",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "v2m",
+    "view to model",
+    "react two way binding",
+    "react 2 way binding",
+    "react view to model"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-eservecloud/v2m.git"
+  },
+  "author": "Eservecloud Solutions Private Limited, Bengaluru, India",
+  "license": "ISC"
+}
