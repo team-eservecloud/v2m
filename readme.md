@@ -67,7 +67,7 @@ In order to start using v2m,
             return (<div className="container m10">
                 <div className="input1">
                     Enter your name : 
-                    <input type="text" className="input-group" rct-model="displyName" />&nbsp;
+                    <input type="text" className="input-group" v2m-model="displyName" />&nbsp;
                     You typed : <span>{this.state.displyName}</span>
                 </div>
             </div>);
