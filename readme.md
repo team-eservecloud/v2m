@@ -43,9 +43,10 @@ In order to start using v2m,
 
     `import { v2m } from "v2m"`
 
-3. To **initialize** 
+3. To **initialize** (Initialize in root component only, Not required to initialize in all the components)
    `componentDidMount() {
-           v2m(this, ReactDom.findDOMNode(this))
+        let v2mlib = new v2m();
+        v2mlib.init(document.body);
    }`
    
 4. How to use
@@ -54,15 +55,18 @@ In order to start using v2m,
 5. Example
 
     `import React, { Component } from 'react';
-    import ReactDom from "react-dom";
     import { v2m } from "v2m"
     class Input2 extends Component {
         state = { 
             displyName: ''
         }
+
         componentDidMount() {
-            v2m(this, ReactDom.findDOMNode(this))
+            // Initialize in root component only, Not required to initialize in all the components
+            let v2mlib = new v2m();
+            v2mlib.init(document.body);
         }
+
         render() { 
             return (<div className="container m10">
                 <div className="input1">
