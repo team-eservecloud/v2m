@@ -1,6 +1,6 @@
 {
   "name": "v2m",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "v2m library is designed to enable 'View to model' (Two way binding) in react using an attribute 'v2m-model' to eliminate clutter. This enables users to focus more on logic rather than worrying about binding the model to a view.",
   "main": "index.js",
   "scripts": {
